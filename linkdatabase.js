@@ -15,8 +15,8 @@ var linkData=[
 		"hrefs":["http://bit.ly/erhsopps","http://bit.ly/erhs-cs","http://bit.ly/erhsapcs","http://bit.ly/erhsintro"]
 	},
 	{
-		"name":"Computer Club-Affiliated",
-		"links":["Our Facebook Page"],
+		"name":"Computer Club",
+		"links":["Facebook Page"],
 		"hrefs":["https://www.facebook.com/groups/398387837024141/"]
 	}
 ]
