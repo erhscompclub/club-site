@@ -2,7 +2,7 @@ var linkData=[
 	{
 		"name":"Lessons",
 		"links":["Console","ActionScript 3","Javascript","Lugonian Physics Engine","LPE v2.0"],
-		"hrefs":["lesson.php?lesson=Console","lesson.php?lesson=ActionScript 3","lesson.php?lesson=Javascript","lesson.php?lesson=Lugonian Physics Engine","lesson.php?lesson=LPE v2.0"]
+		"hrefs":["lesson.html?lesson=Console","lesson.html?lesson=ActionScript 3","lesson.html?lesson=Javascript","lesson.html?lesson=Lugonian Physics Engine","lesson.html?lesson=LPE v2.0"]
 	},
 	{
 		"name":"Sample Games",
