@@ -19,6 +19,11 @@
 
 	<script type="text/javascript">
 		var lessonName=window.location.search.split("=")[1];
+		for(var a=0;a<lessonName.length-3;a++){
+			if(lessonName.substring(a,a+3)=="%20"){
+				lessonName=lessonName.substring(0,a)+" "+lessonName.substring(a+3);
+			}
+		}
 		console.log(lessonName);
 		document.getElementById("title").innerHTML=lessonName;
 		document.getElementById("heading").innerHTML=lessonName+" Lesson";
