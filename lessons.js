@@ -7,13 +7,6 @@ function tab(times){
 }
 var lessons=[
 	{
-		"name":"ActionScript 3",
-		"suggested":[],
-		"text":["ActionScript 3 is the language used for programming Flash games. ",
-		"Basically, if you want to make games like those on <a href='http://kongregate.com'>Kongregate</a> or <a href='http://maxgames.com'>Maxgames.com</a>, you need to know this language.</br>",
-		"Lessons coming soon."]
-	},
-	{
 		"name":"Javascript",
 		"suggested":["Console"],
 		"text":["<heading><u>Functions</u></heading></br></br>",
@@ -55,18 +48,47 @@ var lessons=[
 		"•<i>Math.ceil(number);</i>"+tab(2)+"Like <i>Math.round(number)</i>, but it'll only round up"]
 	},
 	{
-		"name":"Lugonian Physics Engine",
-		"suggested":["Javascript"],
-		"text":["I wasn't that good with names..."]
-	},
-	{
-		"name":"LPE v2.0",
-		"suggested":["Javascript","Lugonian Physics Engine"],
-		"text":["Coming soon...</br>(To a theater near you)</br>(Yes! I've always wanted to say that!)"]
-	},
-	{
 		"name":"Console",
 		"suggested":[],
 		"text":["Console lesson coming soon..."]
+	},
+	{
+		"name":"Clicking",
+		"suggested":["Javascript"],
+		"text":["<code><body onclick=\"click(event)\"></body></br>
+		function click(e){</br>
+			alert(e.x+", "+e.y);</br>
+		}</code></br></br>
+		<code>onclick</code> is an attribute for the body tag. This attribute activates the code in 
+		quotes when the mouse clicks on the body tag. The body tag usually comprises most of a webpage, so 
+		this onclick will work wherever you click. The code in quotes is the function <code>click(e)</code>, and 
+		<code>event</code> is passed as its parameter. For this code to work, we must define the <code>click(e)</code> function with 
+		a parameter for event to be passed in to. <code>event</code> is a built-in feature of javascript, and returns 
+		data for a special recent event (such as a mouse click). Now let's look at our <code>click(e)</code> function. 
+		This function will open a popup box with the coordinates of your click. To check what point was 
+		clicked on a page, simply call <code>e.x</code> or <code>e.y</code>, for the x and y coordinate respectively.</br></br>
+		Using Clicks with Canvas</br>
+		Calling <code>e.x</code> or <code>e.y</code> will return the coordinates of a mouse click with respect to the HTML tag whose
+		onclick function was called. The coordinate (0,0) is the very upper-left corner of a tag. If you 
+		add an <code>onclick</code> attribute to a canvas tag, then the click coordinates will directly fall on the 
+		coordinate system used to draw on the canvas. That means that if you click on a picture in the 
+		canvas, you can compare <code>e</code>'s coordinates to the picture's coordinates and they will overlap. You 
+		can check to see if a picture on the canvas was clicked like this:</br></br>
+
+		<code>function wasClicked(pic,e){</br>
+			if(e.x>=pic.x && e.x<=pic.x+pic.width){</br>
+				if(e.y>=pic.y && e.y<=pic.y+pic.height){</br>
+					return true;</br>
+				}</br>
+			}</br>
+			return false;</br>
+		}</code></br></br>
+
+		What this function does is that it checks to see whether e.x is between <code>pic</code>'s left side 
+		(<code>pic.x</code>) and its right side (<code>pic</code>'s left side plus its width). If it is, then the code can then check 
+		to make sure <code>e.y</code> is between pic's top side and bottom side. If so, then that means that <code>e</code>'s 
+		coordinates fall somewhere within <code>pic</code>, so the user must have clicked on <code>pic</code>. The function will 
+		return <code>true</code> if <code>pic</code> was clicked on, and <code>false</code> if it was not.</br></br>You can view an example
+		of this code in action <a href='clickExample.html'>here</a>."]
 	}
 ]

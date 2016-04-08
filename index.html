@@ -65,11 +65,11 @@
 				newsDiv.innerHTML+="<hr></br>";
 			}
 		}
-		var mainLinks=document.getElementsByClassName("main");
-		for(var a=0;a<linkData.length;a++){
-			mainLinks.innerHTML+='•<a class="main">'+linkData[a].name+'</a></br>';
-		}
 		var mainLinkDiv=document.getElementById("main links");
+		for(var a=0;a<linkData.length;a++){
+			mainLinkDiv.innerHTML+='•<a class="main">'+linkData[a].name+'</a></br>';
+		}
+		var mainLinks=document.getElementsByClassName("main");
 		var sublinkDiv=document.getElementById("sublinks");
 		var linkHeading=document.getElementById("link heading");
 		for(var a=0;a<mainLinks.length;a++){

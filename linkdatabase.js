@@ -1,13 +1,18 @@
 var linkData=[
 	{
 		"name":"Lessons",
-		"links":["Console","ActionScript 3","Javascript","Lugonian Physics Engine","LPE v2.0"],
-		"hrefs":["lesson.html?lesson=Console","lesson.html?lesson=ActionScript 3","lesson.html?lesson=Javascript","lesson.html?lesson=Lugonian Physics Engine","lesson.html?lesson=LPE v2.0"]
+		"links":["Console","Javascript","Clicking"],
+		"hrefs":["lesson.html?lesson=Console","lesson.html?lesson=Javascript","lesson.html?lesson=Clicking"]
 	},
 	{
 		"name":"Sample Games",
 		"links":["Sanai the Turtwig","Genemorph"],
 		"hrefs":["http://www.gamesbyalex.com/sanai_the_turtwig.html","http://www.gamesbyalex.com/genemorph.html"]
+	},
+	{
+		"name":"Sample Programs",
+		"links":["Clicking"],
+		"hrefs":["clickExample.html"]
 	},
 	{
 		"name":"Comp Sci Class Sites",
