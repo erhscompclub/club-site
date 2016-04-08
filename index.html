@@ -7,10 +7,10 @@
 			<div id="links">
 				<u><heading id="link heading">Links</heading></u></br></br>
 				<span id="main links">
-					•<a class="main">Lessons</a></br>
+					<!-->•<a class="main">Lessons</a></br>
 					•<a class="main">Sample Games</a></br>
 					•<a class="main">Comp Sci Class Sites</a></br>
-					•<a class="main">Computer Club</a>
+					•<a class="main">Computer Club</a>-->
 				</span>
 				<span id="sublinks"></span>
 			</div>
@@ -66,6 +66,9 @@
 			}
 		}
 		var mainLinks=document.getElementsByClassName("main");
+		for(var a=0;a<linkData.length;a++){
+			mainLinks.innerHTML+='•<a class="main">'+linkData[a].name+'</a></br>';
+		}
 		var mainLinkDiv=document.getElementById("main links");
 		var sublinkDiv=document.getElementById("sublinks");
 		var linkHeading=document.getElementById("link heading");
