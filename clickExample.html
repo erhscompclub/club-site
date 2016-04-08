@@ -15,12 +15,13 @@ function box(name,x,y,width,height){
 	context.fillRect(x,y,width,height);
 }
 function stuff(e){
-	//console.log("hey");
 	for(var a=0;a<boxes.length;a++){
 		var b=boxes[a];
 		if(e.x>=b.x && e.x<=b.x+b.width){
 			if(e.y>=b.y && e.y<=b.y+b.height){
 				alert(b.name);
+				console.log(b.name);
+				return;
 			}
 		}
 	}
