@@ -8,7 +8,7 @@ function tab(times){
 var lessons=[
 	{
 		"name":"Javascript",
-		"suggested":["Console"],
+		"suggested":[],
 		"text":["<heading><u>Functions</u></heading></br></br>",
 		"Functions are essentially little snippets of code that you save in your programs. ",
 		"Think of them as custom commands you can create and then tell the program to do later. ",
@@ -37,9 +37,9 @@ var lessons=[
 		"Now that I've had my fun with Adele references, let's get into function return types...</br>",
 		"You may be thinking <i>\"Functions can do stuff, but can I get data from them?\"</i>. As a matter of fact, you can! ",
 		"The <i>return</i> keyword in Javascript ends the function, as well as replaces the call with some data. Its easier if I just show you, so I will:</br></br>",
-		"<code>function fromTheWindow(){</br>"+tab(1)+"return \"To the wall\";</br>}</br>console.log(fromTheWindow());</code></br></br>",
+		"<code>function fromTheWindow(){</br>"+tab(1)+"return \"To the wall\";</br>}</br>alert(fromTheWindow());</code></br></br>",
 		"You see how <i>fromTheWindow()</i> returns \"To the wall\", right? Well, that means that whenever we call <i>fromTheWindow</i>, ",
-		"our program will replace it with what it returns. So when we pass it as <i>console.log()</i>'s parameter, \"To the wall\" gets printed to the console. ",
+		"our program will replace it with what it returns. So when we pass it as <i>alert()</i>'s parameter, \"To the wall\" appears in a pop-up box. ",
 		"Whelp, that's basically the basics of functions. Many programming languages use them, so they're crucial to know. Here are a few other functions that come built in to Javascript:</br></br>",
 		"•<i>console.log(text);</i>"+tab(2)+"Prints <i>text</i> to the console</br>",
 		"•<i>Math.random();</i>"+tab(2)+"Returns a random decimal from 0 to 1</br>",
@@ -49,13 +49,26 @@ var lessons=[
 	},
 	{
 		"name":"Console",
-		"suggested":[],
-		"text":["Console lesson coming soon..."]
+		"suggested":["Javascript"],
+		"text":["<heading><u>Console</u></heading></br></br>The console is a programmer's main way to access how a computer 'thinks'. In essence, ",
+		"It is a testing ground for webpages. From the console, programmers can run new code from their webpage, check the values of pre-existing variables, ",
+		"and read data printed from the website. Let's take a look at how to do all these tasks.</br></br><b><u>Accessing the Console</u></b></br>",
+		"Before you can do anything on the console, however, you must know how to access it. How you go about doing this differs slightly from browser to browser, so I recommend you google it for whichever browser you're using.",
+		"</br></br><b><u>Printing to the Console</u></b></br>Programmers often print messages to the console. ",
+		"This can come in handy if the programmer wants to know the value of a variable at a certain point in the code, ",
+		"or if the programmer wants to know if a certain section of code was even executed. To print to the console, you type this:</br></br>",
+		"<code>console.log(\"Booty poppin'\");</code></br></br>This will cause your message (passed as a parameter into the <code>console.log()</code> function) ",
+		"to appear in the console.</br></br><b><u>Running Code/Accessing Variables</u></b></br>From the console you can check the value of variables, ",
+		"as well as run new code in your program. To run any code in the console, just type it as you would in Javascript. For example, ",
+		"try typing <code>alert('Rare Pepes.')</code> into the console and hit enter. What happens is exactly what you would get if you added that code to your webpage in the first place. ",
+		"This is a powerful tool that allows developers to experiment with their webpages without having to go back and rewrite code all the time. ",
+		"To check the value of a variable, simply type the variable's name in the console and hit enter. The console will return the value of the variable in question. ",
+		"Try creating a new variable in the console with <code>var alex=\"Awesome\"</code>. Then, type <code>alex</code>, hit enter, and watch as the console returns \"Awesome\"."]
 	},
 	{
 		"name":"Clicking",
 		"suggested":["Javascript"],
-		"text":["<heading><u>Clicking in Javascript</u></heading></br><code><body onclick=\"click(event)\"></body></br>function click(e){</br>"+tab(1)+"alert(e.x+\", \"+e.y);</br>}</code></br></br>",
+		"text":["<heading><u>Clicking in Javascript</u></heading></br><code><xmp><body onclick=\"click(event)\"></body></xmp>function click(e){</br>"+tab(1)+"alert(e.x+\", \"+e.y);</br>}</code></br></br>",
 		"<code>onclick</code> is an attribute for the body tag. This attribute activates the code in quotes when the mouse clicks on the body tag.", 
 		"The body tag usually comprises most of a webpage, so this onclick will work wherever you click. The code in quotes is the function <code>click(e)</code>, and ",
 		"<code>event</code> is passed as its parameter. For this code to work, we must define the <code>click(e)</code> function with a parameter for event to be passed in to. ",
@@ -70,6 +83,6 @@ var lessons=[
 		"What this function does is that it checks to see whether e.x is between <code>pic</code>'s left side (<code>pic.x</code>) and its right side (<code>pic</code>'s left side plus its width). ",
 		"If it is, then the code can then check to make sure <code>e.y</code> is between pic's top side and bottom side. If so, then that means that <code>e</code>'s ",
 		"coordinates fall somewhere within <code>pic</code>, so the user must have clicked on <code>pic</code>. The function will return <code>true</code> if <code>pic</code> was clicked on, and <code>false</code> if it was not.</br></br>",
-		"You can view an example of this code in action <a href='clickExample.html'>here</a>."]
+		"You can view an example of this code in action <a href='clickExample.html'>here</a> (Disclaimer: May not work in all browsers)."]
 	}
 ]

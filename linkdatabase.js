@@ -10,12 +10,12 @@ var linkData=[
 		"hrefs":["http://www.gamesbyalex.com/sanai_the_turtwig.html","http://www.gamesbyalex.com/genemorph.html"]
 	},
 	{
-		"name":"Sample Programs",
+		"name":"Other Samples",
 		"links":["Clicking"],
 		"hrefs":["clickExample.html"]
 	},
 	{
-		"name":"Comp Sci Class Sites",
+		"name":"Comp Sci Sites",
 		"links":["Opportunities","Computer Science","AP Comp Sci","Intro to Comp Sci"],
 		"hrefs":["http://bit.ly/erhsopps","http://bit.ly/erhs-cs","http://bit.ly/erhsapcs","http://bit.ly/erhsintro"]
 	},
