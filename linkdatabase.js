@@ -21,7 +21,7 @@ var linkData=[
 	},
 	{
 		"name":"Computer Club",
-		"links":["Facebook Page"],
-		"hrefs":["https://www.facebook.com/groups/398387837024141/"]
+		"links":["Facebook Page","The Archives"],
+		"hrefs":["https://www.facebook.com/groups/398387837024141/","history.html"]
 	}
 ]
