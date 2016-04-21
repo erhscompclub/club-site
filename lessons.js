@@ -84,5 +84,14 @@ var lessons=[
 		"If it is, then the code can then check to make sure <code>e.y</code> is between pic's top side and bottom side. If so, then that means that <code>e</code>'s ",
 		"coordinates fall somewhere within <code>pic</code>, so the user must have clicked on <code>pic</code>. The function will return <code>true</code> if <code>pic</code> was clicked on, and <code>false</code> if it was not.</br></br>",
 		"You can view an example of this code in action <a href='clickExample.html'>here</a> (Disclaimer: May not work in all browsers)."]
+	},
+	{
+		"name":"GitHub",
+		"suggested":[],
+		"text":["<heading><u>Clicking in Javascript</u></heading></br>GitHub is an online code repository, meaning that it allows for multiple people to access the same code from any computer. This simplifies any team programming project for obvious reasons. ",
+		"Almost everyone in the tech world uses GitHub. The web GUI (Graphical User Interface) makes it especially easy to use. Just head on over to <a href=\"github.com\">GitHub</a>. Create an account for free, and remember the username and password an all that. ",
+		"Next what you want to do is create a new project, or <i>repository</i> (fancy word, right? :P). From here, you can create new files, upload existing files, or edit files already uploaded to GitHub. ",
+		"If you've made your repository public (I believe all free accounts' repositories are public), then others (like your teammates) can also contribute to your code (Provided you review their changes). ",
+		"Now that you have a repository set up, just go ahead and start programming. Have fun with your group projects!"]
 	}
 ]
