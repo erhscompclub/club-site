@@ -88,7 +88,7 @@ var lessons=[
 	{
 		"name":"GitHub",
 		"suggested":[],
-		"text":["<heading><u>Clicking in Javascript</u></heading></br></br>GitHub is an online code repository, meaning that it allows for multiple people to access the same code from any computer. This simplifies any team programming project for obvious reasons. ",
+		"text":["<heading><u>Using GitHub for Team Projects</u></heading></br></br>GitHub is an online code repository, meaning that it allows for multiple people to access the same code from any computer. This simplifies any team programming project for obvious reasons. ",
 		"Almost everyone in the tech world uses GitHub. The web GUI (Graphical User Interface) makes it especially easy to use. Just head on over to <a href=\"github.com\">GitHub</a>. Create an account for free, and remember the username and password an all that. ",
 		"Next what you want to do is create a new project, or <i>repository</i> (fancy word, right? :P). From here, you can create new files, upload existing files, or edit files already uploaded to GitHub. ",
 		"If you've made your repository public (I believe all free accounts' repositories are public), then others (like your teammates) can also contribute to your code (Provided you review their changes). ",
