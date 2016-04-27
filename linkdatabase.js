@@ -11,8 +11,8 @@ var linkData=[
 	},
 	{
 		"name":"Other Samples",
-		"links":["Clicking"],
-		"hrefs":["clickExample.html"]
+		"links":["Clicking","w3schools"],
+		"hrefs":["clickExample.html","http://www.w3schools.com"]
 	},
 	{
 		"name":"Comp Sci Sites",
