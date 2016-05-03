@@ -101,6 +101,8 @@ var lessons=[
 		"text":["<heading><u>HTML</u></heading></br></br>HTML is the backbone of every webpage on the internet. It will provide you with the tools to create the bare bones of a website. ",
 		"HTML is a relatively simple language, and can be augmented by two other languages: JavaScript and CSS. In html, you have something called <i>tags</i>. ",
 		"Tags are the basic building blocks of HTML. Individual tags can even be customized using <i>attributes</i>. Here is an example of a complete tag:",
-		"</br>"+tab(1)+"<xmp><font color=\"red\">Hello!</font></xmp></code></br><code>font</code> is the tag. <code>color</code> is an attribute."]
+		"</br>"+tab(1)+"<xmp><font color=\"red\">Hello!</font></xmp></code></br><code>font</code> is the tag. <code>color</code> is an attribute.</br>",
+		"<heading><u>Common HTML Tags</u></heading></br></br>•<xmp><html> - Every other tag in your webpage must come between <html> and </html>.</xmp></br>",
+		"•<xmp><title> - whatever you type between <title> and </title> will be set as the webpage's tab name.</xmp>"]
 	}
 ]
