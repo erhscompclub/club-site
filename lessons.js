@@ -105,6 +105,7 @@ var lessons=[
 		"<heading><u>Common HTML Tags</u></heading></br></br><xmp>•<html> - Every other tag in your webpage must come between <html> and </html>.</xmp>",
 		"<xmp>•<title></title> - whatever you type between these tags will be set as the webpage's tab name.</xmp><xmp>•<body> - most of your html code will be within a <body> tag. <body> represents the background of your webpage.</xmp>",
 		"<xmp>•<p> - sets apart text within the tag as a single paragraph.</xmp><xmp>•<font> - uses attributes to change some text's color, font size, and decoration.</xmp><xmp>•</br> - </br> doesn't require a <br> tag. It tells the webpage to skip down to the next time.</xmp>",
-		"<xmp>•<a> - the attributes to this tag define a link.<xmp>•<img> - adds an image to your webpage.</xmp></xmp>"]
+		"<xmp>•<a> - the attributes to this tag define a link.</xmp><xmp>•<img> - adds an image to your webpage.</xmp><xmp>•<canvas> - canvas is a tag used to draw graphics with javascript. It is used to make graphical games on a webpage.</xmp>",
+		"<heading><u>Example Code (Unfinished)</u></heading></br></br><xmp><html></xmp></br><xmp><title>Webpage example</title></xmp></br><xmp><body background=\"skyBlue\"></body>"]
 	}
 ]
