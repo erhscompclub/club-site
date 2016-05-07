@@ -8,7 +8,7 @@ function tab(times){
 var lessons=[
 	{
 		"name":"Javascript",
-		"suggested":[],
+		"suggested":["HTML"],
 		"text":["<heading><u>Functions</u></heading></br></br>",
 		"Functions are essentially little snippets of code that you save in your programs. ",
 		"Think of them as custom commands you can create and then tell the program to do later. ",
@@ -106,6 +106,9 @@ var lessons=[
 		"<xmp>•<title></title> - whatever you type between these tags will be set as the webpage's tab name.</xmp><xmp>•<body> - most of your html code will be within a <body> tag. <body> represents the background of your webpage.</xmp>",
 		"<xmp>•<p> - sets apart text within the tag as a single paragraph.</xmp><xmp>•<font> - uses attributes to change some text's color, font size, and decoration.</xmp><xmp>•</br> - </br> doesn't require a <br> tag. It tells the webpage to skip down to the next time.</xmp>",
 		"<xmp>•<a> - the attributes to this tag define a link.</xmp><xmp>•<img> - adds an image to your webpage.</xmp><xmp>•<canvas> - canvas is a tag used to draw graphics with javascript. It is used to make graphical games on a webpage.</xmp>",
-		"<heading><u>Example Code (Unfinished)</u></heading></br></br><xmp><html></xmp></br><xmp><title>Webpage example</title></xmp></br><xmp><body background=\"skyBlue\"></body>"]
+		"<heading><u>Example Code (Unfinished)</u></heading></br></br><xmp><html></xmp><xmp><title>Webpage example</title></xmp><xmp><body background=\"skyBlue\"></xmp><xmp><!--P.S., here's a comment. Comments don't affect the webpage in any way, they're just here as notes--></xmp>",
+		"<xmp><h1>Here's a heading</h1></xmp><xmp>text outside of any tag shows up as just plain text on a webpage.</br><!--You'll want a </br> (a break tag) after plain text to indent to the next line on the page after it--></xmp><xmp><font size=\"6\" color=\"red\">Big red text!</font></br></xmp>",
+		"<xmp><a href=\"bit.ly/erhscompclub\">A link to the best webpage ever :P</a><p>Here's a paragraph. It will already be indented without a break tag because it's a pragraph. HTML already handles that for us.</p></xmp>",
+		"<xmp></body></xmp><xmp></html></xmp>"]
 	}
 ]
