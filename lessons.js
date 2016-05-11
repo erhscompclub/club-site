@@ -47,12 +47,12 @@ var lessons=[
 		"•<i>Math.floor(number);</i>"+tab(2)+"Like <i>Math.round(number)</i>, but it'll only round down</br>",
 		"•<i>Math.ceil(number);</i>"+tab(2)+"Like <i>Math.round(number)</i>, but it'll only round up</br></br>",
 		"<heading><u>Classes</u></heading></br></br>A class is essentially a type of object. Objects in programming are entities, or groups of data, that you can create and manipulate within the code. If the universe truly is just a computer simulation, then we'd all be objects of the Human class, reading this email from objects of the Computer class. ",
-		"Creating a class in javascript is similar to making a function, although in most other languages there's more differentiation. Here's how you code a class:</br>"+tab(1)+"function",
-		"Player(name){</br>"+tab(2)+"this.name=name;</br>"+tab(2)+"this.x=0;</br>"+tab(2)+"this.y=0;</br>"+tab(2)+"this.width=100;</br>"+tab(2)+"this.height=100;</br>"+tab(1)+"}",
+		"Creating a class in javascript is similar to making a function, although in most other languages there's more differentiation. Here's how you code a class:</br>",
+		"<code>function Player(name){</br>"+tab(2)+"this.name=name;</br>"+tab(2)+"this.x=0;</br>"+tab(2)+"this.y=0;</br>"+tab(2)+"this.width=100;</br>"+tab(2)+"this.height=100;</br>"+tab(1)+"}</code></br>",
 		"Classes don't have to capitalized, as Player is, but it'll help you differentiate between what is a function and what is a class. Most of the physics in my engine are designed to work on classes with x, y, width, and height variables, as this example has, so don't forget to add those to any classes you make that will use the engine's functionality. ",
 		"Also, the word name within parenthesis is what's called a parameter. This means that when you create a new object of class Player, you can add data to it, and it will store that data with the this.name=name command. Now let's say you wanted to create a new player object so it can interact with the rest of the code. ",
-		"Like functions, classes don't do anything unless they're called. Unlike functions, which are basically a set of instructions that run, objects are entities that live on in your code for as long as they are needed by it. This means that you can have multiple objects of the same class at a time. To make a new object, just do this:",
-		"</br>"+tab(1)+"var alexLugo=new Player(\"Alex Lugo\");</br>This will create a new Player object with name \"Alex Lugo\", because that is the data that I passed into the name parameter."]
+		"Like functions, classes don't do anything unless they're called. Unlike functions, which are basically a set of instructions that run, objects are entities that live on in your code for as long as they are needed by it. This means that you can have multiple objects of the same class at a time. To make a new object, just do this:</br>",
+		"<code>var alexLugo=new Player(\"Alex Lugo\");</code></br>This will create a new Player object with name \"Alex Lugo\", because that is the data that I passed into the name parameter."]
 	},
 	{
 		"name":"Console",
