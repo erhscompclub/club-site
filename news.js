@@ -1,4 +1,5 @@
 var news=[
+	"I added a new chapter to the JavaScript lesson: Classes. Classes are essential to just about every game you program, so be sure to read through it.",
 	"A new chapter in the Saga of Computer Club has been unlocked! Check out the Archives to read it.",
 	"Now that my code repository nightmare has (finally) ended, we can start working on our games. I will start my own group and work with those who come and go, or who don't already have a team. Start programming your games, and commit any changes to your GitHub repository. If you have an issue, either email me or we can address it in computer club.",
 	"Two new lessons have (finally) been added to the website: Click handling in Javascript and the Console. If you want to start working on your games, laying out the barebones HTML tags would be a good idea. Good luck with your programs!",
