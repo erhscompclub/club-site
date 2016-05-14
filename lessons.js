@@ -127,7 +127,7 @@ var lessons=[
 		"Camel Case is usually used when writing method or class names, because in most programming languages, a space between two words means that they are two different things, and not a single name. ",
 		"It's not necessary to use camel case as long as you don't put spaces between method names, class names, or variables...It's just the preferred way for programmers to name what they code.</br></br>",
 		"<heading><u>Variables</u></heading></br></br>Almost every programming language has something called a variable. Variables are just a way for you to store important information in the code...something that could possiby change while the code is running (like player health in a game). ",
-		"There are many different types of data that can be stored in a variable. Here's a quick list of the most popular data types:</br>"+tab(1)+"• string: words, letters, numbers, or whatever in quotes; Ex: \"Hello, there.\"</br>"+tab(1)+" •",
+		"There are many different types of data that can be stored in a variable. Here's a quick list of the most popular data types:</br>"+tab(1)+"• string: words, letters, numbers, or whatever in quotes; Ex: \"Hello, there.\"</br>"+tab(1)+"• ",
 		"int: a whole number; Ex: 1,-20,0,15648</br>"+tab(1)+"• boolean: a value that can only be true or false (Like whether or not a light switch is on)</br></br>",
 		"<heading><u>Methods</u></heading></br></br>Coming soon..."]
 	}
