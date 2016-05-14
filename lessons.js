@@ -8,7 +8,7 @@ function tab(times){
 var lessons=[
 	{
 		"name":"Javascript",
-		"suggested":["HTML"],
+		"suggested":["Concepts","HTML"],
 		"text":["<heading><u>Functions</u></heading></br></br>",
 		"Functions are essentially little snippets of code that you save in your programs. ",
 		"Think of them as custom commands you can create and then tell the program to do later. ",
@@ -99,8 +99,8 @@ var lessons=[
 		"Almost everyone in the tech world uses GitHub. The web GUI (Graphical User Interface) makes it especially easy to use. Just head on over to <a href=\"https://github.com\">GitHub</a>. Create an account for free, and remember the username and password an all that. ",
 		"Next what you want to do is create a new project, or <i>repository</i> (fancy word, right? :P). From here, you can create new files, upload existing files, or edit files already uploaded to GitHub. ",
 		"If you've made your repository public (I believe all free accounts' repositories are public), then others (like your teammates) can also contribute to your code (Provided you review their changes). ",
-		"Now that you have a repository set up, just go ahead and start programming. Have fun with your group projects!</br></br>",
-		"And Git good at coding!"]
+		"Now that you have a repository set up, just go ahead and start programming. First, you will want to edit your README doc so that the \"create new file\" options will appear in your project profile. ",
+		"Have fun with your group projects!</br></br>And Git good at coding!"]
 	},
 	{
 		"name":"HTML",
@@ -113,9 +113,23 @@ var lessons=[
 		"<xmp>•<title></title> - whatever you type between these tags will be set as the webpage's tab name.</xmp><xmp>•<body> - most of your html code will be within a <body> tag. <body> represents the background of your webpage.</xmp>",
 		"<xmp>•<p> - sets apart text within the tag as a single paragraph.</xmp><xmp>•<font> - uses attributes to change some text's color, font size, and decoration.</xmp><xmp>•</br> - </br> doesn't require a <br> tag. It tells the webpage to skip down to the next time.</xmp>",
 		"<xmp>•<a> - the attributes to this tag define a link.</xmp><xmp>•<img> - adds an image to your webpage.</xmp><xmp>•<canvas> - canvas is a tag used to draw graphics with javascript. It is used to make graphical games on a webpage.</xmp>",
-		"<heading><u>Example Code (Unfinished)</u></heading></br></br><xmp><html></xmp><xmp><title>Webpage example</title></xmp><xmp><body background=\"skyBlue\"></xmp><xmp><!--P.S., here's a comment. Comments don't affect the webpage in any way, they're just here as notes--></xmp>",
+		"<font color=\"skyBlue\"><heading><u>Example Code</u></heading></br></br><xmp><html></xmp><xmp><title>Webpage example</title></xmp><xmp><body background=\"skyBlue\"></xmp><xmp><!--P.S., here's a comment. Comments don't affect the webpage in any way, they're just here as notes--></xmp>",
 		"<xmp><h1>Here's a heading</h1></xmp><xmp>text outside of any tag shows up as just plain text on a webpage.</xmp><xmp></br><!--You'll want a </br> (a break tag) after plain text to indent to the next line on the page after it--></xmp><xmp><font size=\"6\" color=\"red\">Big red text!</font></br></xmp>",
 		"<xmp><a href=\"bit.ly/erhscompclub\">A link to the best webpage ever :P</a></xmp><xmp><p>Here's a paragraph. It will already be indented without a break tag because it's a pragraph. HTML already handles that for us.</p></xmp>",
-		"<xmp></body></xmp><xmp></html></xmp>"]
+		"<xmp></body></xmp><xmp></html></xmp></font>"]
+	},
+	{
+		"name":"Concepts",
+		"suggested":[],
+		"text":["<heading>Basic Programming Concepts</heading></br></br>There are hundreds of programming languages you could learn. Java, HTML, CSS, JavaScript, ActionScript, PHP, Haskell, the C languages, and many, many more. Most languages were created with a certain goal in mind. ",
+		"For example, HTML is used to create the bare bones of a webpage, CSS beautifies those bones, and JavaScript adds functionality to the page (required for games). Java can create Android or desktop apps, and ActionScript is used for Flash games. ",
+		"To fill so many varied purposes, different programming languages often have many differences between them. However, there are a few aspects that are present in most relevant modern programming languages.</br></br>",
+		"<heading>camelCase</heading></br></br>Camel Case is a new way of writing sentences. The first word in the sentence is all lower-case. Every word after that has its first letter capitalized. Here's an example of Camel Case:</br>"+tab(1)+"thisIsACamelCaseSentence</br>",
+		"Camel Case is usually used when writing method or class names, because in most programming languages, a space between two words means that they are two different things, and not a single name. ",
+		"It's not necessary to use camel case as long as you don't put spaces between method names, class names, or variables...It's just the preferred way for programmers to name what they code.</br></br>",
+		"<heading>Variables</heading></br></br>lmost every programming language has something called a variable. Variables are just a way for you to store important information in the code...something that could possiby change while the code is running (like player health in a game). ",
+		"There are many different types of data that can be stored in a variable. Here's a quick list of the most popular data types:</br>"+tab(1)+"•string: words, letters, numbers, or whatever in quotes; Ex: \"Hello, there.\"</br>"+tab(1)+"•",
+		"int: a whole number; Ex: 1,-20,0,15648</br>"+tab(1)+"•boolean: a value that can only be true or false (Like whether or not a light switch is on)</br></br>",
+		"<heading>Methods</heading></br></br>Coming soon..."]
 	}
 ]
