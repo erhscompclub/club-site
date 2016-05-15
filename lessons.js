@@ -149,7 +149,7 @@ var lessons=[
 		"<heading><u>Methods</u></heading></br></br>Coming soon..."]
 	},{
 		"name":"Languages",
-		"suggested":["concepts"],
+		"suggested":["Concepts"],
 		"text":["<heading><u>Types of Languages</u></heading></br></br>Over the years, humans have created hundreds of different programming languages. ",
 		"Some languages are similar to each other in syntax (~grammar or structure) and vocabulary, forming parallels to real-world language families. That is to say, there are lots of different types of languages. ",
 		"Before I describe some of the hundreds of programming languages out there, let me first describe some of the types of languages that exist.</br>"+tab(1)+"• ",
