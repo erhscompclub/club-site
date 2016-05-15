@@ -82,7 +82,11 @@
 						sublinkDiv.style.display="";
 						sublinkDiv.innerHTML="<a class='main' onclick='back()'>Back</a></br>";
 						for(var b=0;b<sublinks.length;b++){
-							sublinkDiv.innerHTML+="•<a href='"+linkData[a].hrefs[b]+"'>"+sublinks[b]+"</a></br>";
+							if(linkData[a].name=="Lessons"){
+								sublinkDiv.innerHTML+="•<a href=\"lesson.html?lesson="+linkData[a].hrefs[b]+"\">"+sublinks[b]+"</a></br>";
+							}else{
+								sublinkDiv.innerHTML+="•<a href=\""+linkData[a].hrefs[b]+"\">"+sublinks[b]+"</a></br>";
+							}
 						}
 					}
 				}
