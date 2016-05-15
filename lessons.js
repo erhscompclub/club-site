@@ -148,7 +148,7 @@ var lessons=[
 		"force=mass*acceleration; \\the basis of a physics engine in your game</br>"+tab(1)+"• damage*=2 //perhaps you run this code when you get a 2x damage buff</br></br>",
 		"<heading><u>Methods</u></heading></br></br>Coming soon..."]
 	},{
-		"name";"Languages",
+		"name":"Languages",
 		"suggested":["concepts"],
 		"text":["<heading><u>Types of Languages</u></heading></br></br>Over the years, humans have created hundreds of different programming languages. ",
 		"Some languages are similar to each other in syntax (~grammar or structure) and vocabulary, forming parallels to real-world language families. That is to say, there are lots of different types of languages. ",
