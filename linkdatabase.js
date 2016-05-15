@@ -2,14 +2,7 @@ var linkData=[
 	{
 		"name":"Lessons",
 		"links":["Concepts","Javascript","HTML","Console","GitHub","Clicking"],
-		"hrefs":[
-			"lesson.html?lesson=Concepts",
-			"lesson.html?lesson=Javascript",
-			"lesson.html?lesson=HTML",
-			"lesson.html?lesson=Console",
-			"lesson.html?lesson=GitHub",
-			"lesson.html?lesson=Clicking"
-		]
+		"hrefs":["Concepts","Javascript","HTML","Console","GitHub","Clicking"]
 	},
 	{
 		"name":"Sample Games",
