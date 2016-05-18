@@ -183,5 +183,12 @@ var lessons=[
 		"This includes the key code of the event. Each key on the keyboard is represented by a unique number (its key code). To see which key was pressed, just use a simple <code>if</code> statement. like so:</br>"+tab(1)+"<code>",
 		"if(e.keyCode==39){</br>"+tab(2)+"//right arrow key was pressed. Move player right</br>"+tab(1)+"}</br>39 is the key code for the right arrow key. ",
 		"<a href=\"http://www.cambiaresearch.com/articles/15/javascript-key-codes\">Here is a list</a> of all the keycodes on the keyboard."]
+	},
+	{
+		"name":"Useful Code",
+		"suggested":["Javascript"],
+		"text":["Lesson coming soon...this lesson will be a repository of sorts of useful snippets of code. ",
+		"Anything from random number generation to basic game loops can be found here, along with their applications and how to make your own. ",
+		"All code in this lesson will be written in Javascript."]
 	}
 ]
