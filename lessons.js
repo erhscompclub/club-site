@@ -166,5 +166,22 @@ var lessons=[
 		"Assembly languages are all procedural, and are a step up from pure binary code in complexity. Assembly languages were the first of a type of language called \"Low Level\" programming languages. ",
 		"This means that every type of CPU has its own Assembly language associated with it. Assembly languages are extremely simple math-based languages that can directly manipulate computer memory and other hardware.</br></br>",
 		"<heading><u>Encyclopedia of Languages</u></heading></br></br>Coming soon...kek"]
+	},
+	{
+		"name":"Keyboard Controls",
+		"suggested":["Javascript","HTML","Clicking"],
+		"text":["<heading><u>The HTML Part</u></heading></br></br>There are two parts you have to code fi you want keyboard input functionality in your game. ",
+		"One of these parts is written in html, the other is written in Javascript. For the html code, you'll want to add an <code>onkeypress</code> attribute to your <code>canvas</code> tag. ",
+		"Give the attribute a javascript function as a value, with <code>event</code> passed in it as a parameter (something like <code>onclick(event)</code>). The onkeypress attribute in html adds an <i>event listener</i> to the canvas tag. ",
+		"An event listener is a part of the program that waits for a certain event to happen (such as a key being pressed or the mouse being clicked). When you press a key, the onkeypress attribute calls the Javascript function you passed as its value. ",
+		"Now, let's get to coding the Javascript portion of your keyboard input code.</br></br><heading><u>The Javascript Part</u></heading></br></br>",
+		"So you have a function like this:</br><code>onclick(e){}</code></br><code>e</code> is the parameter for the function <code>onclick</code>. ",
+		"In the html portion of your code, you pass <code>event</code> as the parameter of e. This function will run whenever you press a key on the keyboard. ",
+		"Many games utilize keyboard controls, be they arrow keys for movement or the z button for special attacks. However, you would want a way to see which button specifically was pressed. ",
+		"To find which button was pressed, you can run this code snippet: <code>e.keyCode</code>. <code>e.keyCode</code> returns the <i>key code</i> of whichever key was pressed last. ",
+		"The <code>event</code> keyword that you passed into the onclick(e) function in the onkeypress attribute contains all the data of the pressed key. ",
+		"This includes the key code of the event. Each key on the keyboard is represented by a unique number (its key code). To see which key was pressed, just use a simple <code>if</code> statement. like so:</br>"+tab(1)+"<code>",
+		"if(e.keyCode==39){</br>"+tab(2)+"//right arrow key was pressed. Move player right</br>"+tab(1)+"}</br>39 is the key code for the right arrow key. ",
+		"<a href=\"http://www.cambiaresearch.com/articles/15/javascript-key-codes\">Here is a list</a> of all the keycodes on the keyboard."]
 	}
 ]
