@@ -165,11 +165,10 @@ var lessons=[
 		"This process was difficult to master, took a long time, and was very expensive. To fix this, programmers began to develop the first programming languages, called Assembly languages. ",
 		"Assembly languages are all procedural, and are a step up from pure binary code in complexity. Assembly languages were the first of a type of language called \"Low Level\" programming languages. ",
 		"This means that every type of CPU has its own Assembly language associated with it. Assembly languages are extremely simple math-based languages that can directly manipulate computer memory and other hardware.</br></br>",
-		"<heading><u>Encyclopedia of Languages</u></heading></br></br><table style=\"position:relative;width:90%;text-align:center;padding:10px\">",
+		"<heading><u>Encyclopedia of Languages</u></heading></br></br><table style=\"position:relative;width:90%;text-align:center;\">",
 		"<tr><td><u>Language</u></td><td><u>Type</u></td><td><u>Description</u></td></tr>",
 		"<tr><td>C</td><td>Procedural</td><td>The progenitor of all C-Based languages.</td></tr>",
-		"<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage</td></tr>",
-		"</table>"]
+		"<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage</td></tr></table>"]
 	},
 	{
 		"name":"Keyboard Controls",
