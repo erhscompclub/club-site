@@ -5,6 +5,13 @@ function tab(times){
 	}
 	return tab;
 }
+
+function languageDataTable(){
+	var langData="<tr><td><u>Language</u></td><td><u>Type</u></td><td><u>Description</u></td></tr>";
+	langData+="<tr><td>C</td><td>Procedural</td><td>The progenitor of all C-Based languages.</td></tr>";
+	langData+="<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage</td></tr>";
+	return langData;
+}
 var lessons=[
 	{
 		"name":"Javascript",
@@ -166,7 +173,7 @@ var lessons=[
 		"Assembly languages are all procedural, and are a step up from pure binary code in complexity. Assembly languages were the first of a type of language called \"Low Level\" programming languages. ",
 		"This means that every type of CPU has its own Assembly language associated with it. Assembly languages are extremely simple math-based languages that can directly manipulate computer memory and other hardware.</br></br>",
 		"<heading><u>Encyclopedia of Languages</u></heading></br></br>",
-		"<table style=\"position:relative;width:90%;text-align:center;\"><tbody><tr><td><u>Language</u></td><td><u>Type</u></td><td><u>Description</u></td></tr>"+languageData()+"</tbody></table>"]
+		"<table style=\"position:relative;width:90%;text-align:center;\"><tbody>"+languageDataTable()+"</tbody></table>"]
 	},
 	{
 		"name":"Keyboard Controls",
@@ -193,8 +200,3 @@ var lessons=[
 		"All code in this lesson will be written in Javascript."]
 	}
 ]
-function languageData(){
-	var langData="";
-	langData+="<tr><td>C</td><td>Procedural</td><td>The progenitor of all C-Based languages.</td></tr>";
-	langData+="<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage</td></tr>";
-}
