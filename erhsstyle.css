@@ -21,6 +21,8 @@ div{
 }
 td{
 	color:white;
+	border-color:white;
+	border-width:2px;
 }
 a{
 	text-decoration:none;
