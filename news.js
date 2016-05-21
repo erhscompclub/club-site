@@ -1,5 +1,6 @@
 var news=[
 	"Attention club members! This coming Wednesday (the 25th) is the last meeting for the 2016 school year :(</br>But then again...we do get pizza!!! Remember to being $3 for the food.",
+	"New features:</br> 1.) A new chapter in the storyline</br> 2.) Added new languages to the enyclopedia",
 	"Ha! I won the Pizza Civil War! In yo face Dagm!!! (Jk bro)",
 	"I added a new chapter to the JavaScript lesson: Classes. Classes are essential to just about every game you program, so be sure to read through it.",
 	"A new chapter in the Saga of Computer Club has been unlocked! Check out the Archives to read it.",
