@@ -8,7 +8,7 @@ function tab(times){
 
 function languageDataTable(){
 	var langData="<tr><td><u>Language</u></td><td><u>Type</u></td><td><u>Description</u></td></tr>";
-	langData+="<tr><td>C</td><td>Procedural</td><td>The progenitor of all C-Based languages.</td></tr>";
+	langData+="<tr><td>C</td><td>Procedural</td><td>The progenitor of all C-Based languages. Long ago, all programs were made with Assembly languages. This all changed when Dennis Ritchie created a program called a <i>compiler</i>. This program could convert C (a language made by Dennis) into any of several Assembly codes. Thus was born the most popular early high-level language.</td></tr>";
 	langData+="<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage</td></tr>";
 	return langData;
 }
