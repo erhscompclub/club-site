@@ -9,7 +9,23 @@ function tab(times){
 function languageDataTable(){
 	var langData="<tr><td><u>Language</u></td><td><u>Type</u></td><td><u>Description</u></td></tr>";
 	langData+="<tr><td>C</td><td>Procedural</td><td>The progenitor of all C-Based languages. Long ago, all programs were made with Assembly languages. This all changed when Dennis Ritchie created a program called a <i>compiler</i>. This program could convert C (a language made by Dennis) into any of several Assembly codes. Thus was born the most popular early high-level language.</td></tr>";
-	langData+="<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage</td></tr>";
+	langData+="<tr><td>HTML</td><td>Markup</td><td>HTML provides the bare bones of every webpage. HTML's tags store data for the basic elements of a webpage, such as text, pictures or <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">links</a>. HTML tags can be visually altered by CSS. Javascript can be used to code functionality that interacts with HTML tags.</td></tr>";
+	langData+="<tr><td>HTML5</td><td>Markup</td><td>HTML5 is essentially the same language as HTML. The only difference is that HTML5's compiler was written to process new Javascript functions. These functions were designed to allow for more direct graphical manipulation on the webpage (the <code>canvas</code> tag).</td></tr>";
+	langData+="<tr><td>Javascript</td><td>Object-Oriented, C-based</td><td>Javascript is like every programmer's common language. It is flexible, and is used to add functionality to every webpage on the internet. Like all C-based languages, Javascript has an extensive library dedicated to processing numerical data. In recent years HTML has been updated to allow for game creation with Javascript.</td></tr>";
+	langData+="<tr><td>CSS</td><td>Procedural</td><td>CSS is a very unique language, designed specifically for its task. CSS is used only to alter the styling on HTML tags. With CSS, you can create <i>stylesheets</i>. Stylesheets are like a set of artistic rules that can be easily applied to multiple webpages.</td></tr>";
+	langData+="<tr><td>XML</td><td>Markup</td><td>XML is often used to store data in a very orderly fashion. Javascript is used to access or alter the data stored in XML tags. XML is more of a way to store information rather than a full-fledged programming language.</td></tr>";
+	langData+="<tr><td>PHP</td><td>Procedural</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>jQuery</td><td>Procedural</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Actionscript</td><td>Object-Oriented, C-based</td><td>Flash programs (like games or cool internet animations) are written in Actionscript. The latest version of the language is Actionscript 3. Flash programming is often not as secure as Java, and so is vulnerable to viruses. Actionscript has many built-in visual or gaming-focused functionalities.</td></tr>";
+	langData+="<tr><td>C#</td><td>Object-Oriented, C-based</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>C++</td><td>Object-Oriented, C-based</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Objective C</td><td>Object-Oriented, C-based</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Ruby</td><td>Object-Oriented</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Python</td><td>Multi-Paradigm</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Perl</td><td>Multi-Paradigm</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Applescript</td><td>Natural</td><td>Coming soon...</td></tr>";
+	langData+="<tr><td>Swift</td><td>Object-Oriented, C-Based</td><td>Coming soon...</td></tr>";
+	//langData+="<tr><td></td><td></td><td></td></tr>";
 	return langData;
 }
 var lessons=[
@@ -164,6 +180,7 @@ var lessons=[
 		"These languages were not as dynamic as their successors, Object-Oriented languages.</br>"+tab(1)+"• Object-Oriented: Object-Oriented and Procedural languages are the two main types of programming languages. There are tons of smaller families that exist under these two categories. ",
 		"Object-Oriented programming was developed in response to Procedural limitations. With Object-Oriented programming, the programmer can create <i>classes</i>, which are like the outline for a custom object. ",
 		"An <i>object</i> is basically a collection of data (variables and functions), which makes data manipulation easier to understand by the programmer. Object-Oriented languages are more widely used today than Procedural languages.</br>"+tab(1)+"• ",
+		"Multi-Paradigm: Programming paradigms are essentially styles of programming. Two popular paradigms are Procedural and Object-Oriented. Multi-Paradigm is exactly what the name suggests - a mix of two or more paradigms.</br>"+tab(1)+"• ",
 		"C-based: This is the most common type of language for functional programming. Java, Javascript, Actionscript, are members of this language type. Some are procedural, some are object-oriented. ",
 		"These languages are primarily math-based, so they are mainly used for storing/manipulating data (thus making them essential tools for game creation).</br>"+tab(1)+"• Markup: Markup languages include HTML and XML (which is more of a way to write data than an actual programming language). ",
 		"Basically anything that ends in ML (\"Markup Language\") is part of this family. Members of this family do not use any math, and so cannot be used to make a game without assistance from a more math-based language. ",
@@ -171,7 +188,8 @@ var lessons=[
 		"Assembly Languages/Machine Code: Long ago, when the first computers were built, programmers used to write their code directly in binary (simply 1's and 0's). ",
 		"This process was difficult to master, took a long time, and was very expensive. To fix this, programmers began to develop the first programming languages, called Assembly languages. ",
 		"Assembly languages are all procedural, and are a step up from pure binary code in complexity. Assembly languages were the first of a type of language called \"Low Level\" programming languages. ",
-		"This means that every type of CPU has its own Assembly language associated with it. Assembly languages are extremely simple math-based languages that can directly manipulate computer memory and other hardware.</br></br>",
+		"This means that every type of CPU has its own Assembly language associated with it. Assembly languages are extremely simple math-based languages that can directly manipulate computer memory and other hardware.</br>"+tab(1)+"• ",
+		"Natural: Natural languages are modeled after human speech, such as English. One example of a natural programming language is LiveCode.</br></br>",
 		"<heading><u>Encyclopedia of Languages</u></heading></br></br>",
 		"<table style=\"position:relative;width:90%;text-align:center;\"><tbody>"+languageDataTable()+"</tbody></table>"]
 	},
