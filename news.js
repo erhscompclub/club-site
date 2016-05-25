@@ -1,4 +1,5 @@
 var news=[
+	"End of the year message:</br>Thank you all for a fun year of Computer Club. That banquet was pretty lit.</br>Sorry we never got to complete our games, we were a bit tied up in the Phil Wars. With the club website, however, Computer Club will come back better than ever next year. Here's to a new Golden Age!",
 	"The entrance fee to the end of the year banquet has been changed to $5, on account of all the food we ordered. Also, you must be a member of computer club to attend. See you all tomorrow.",
 	"Attention club members! This coming Wednesday (the 25th) is the last meeting for the 2016 school year :(</br>But then again...we do get pizza!!! Remember to being $3 for the food.",
 	"New features:</br> 1.) A new chapter in the storyline</br> 2.) Added new languages to the enyclopedia",
