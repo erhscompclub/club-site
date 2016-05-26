@@ -215,6 +215,9 @@ var lessons=[
 		"suggested":["Javascript"],
 		"text":["Lesson coming soon...this lesson will be a repository of sorts of useful snippets of code. ",
 		"Anything from random number generation to basic game loops can be found here, along with their applications and how to make your own. ",
-		"All code in this lesson will be written in Javascript."]
+		"All code in this lesson will be written in Javascript.</br></br><heading><u>Random Number Generator</u></heading></br></br>Random number generators (or RNGs) are integral to many facets of game deisgn. ",
+		"Perhaps you want an enemy that moves randomly across the screen, or you want semi-randomized dungeon design for better replayability in your game. At any rate, you want to be able to write code that can generate a random number between a specified minimum and maximum. Here is some simple code that does just that: </br>"+tab(1)+"<code>function ",
+		"random(min,max){</br>"+tab(2)+"return Math.round(Math.random()*(max-min))+min;</br>"+tab(1)+"}</code></br>Let's take a look at this code piece by piece. This function returns a random whole number between <code>min</code> and <code>max</code>. <code>Math.random()</code> returns a random decimal from 0 to 1. ",
+		"Multiplying this random number by "]
 	}
 ]
