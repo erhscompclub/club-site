@@ -39,7 +39,7 @@ var lessons=[
 		"<heading><u>Functions</u></heading></br></br>",
 		"Functions are essentially little snippets of code that you save in your programs. ",
 		"Think of them as custom commands you can create and then tell the program to do later. ",
-		"This called <i>defining</i> and <i>calling</i> a function. ",
+		"This is called <i>defining</i> and <i>calling</i> a function. ",
 		"In programming, most of the code you write will be within functions. Let's take a look a function, shall we?</br></br>",
 		"<code>function hello(){</br>"+tab(1)+"alert(\"Was gucci?\");</br>}</code></br></br>",
 		"The word <i>function</i> there lets the program know that you're about to create a function. The word <i>hello</i> is what I decided to call it, or the <i>name</i> of the function. ",
@@ -97,7 +97,10 @@ var lessons=[
 		"try typing <code>alert('Rare Pepes.')</code> into the console and hit enter. What happens is exactly what you would get if you added that code to your webpage in the first place. ",
 		"This is a powerful tool that allows developers to experiment with their webpages without having to go back and rewrite code all the time. ",
 		"To check the value of a variable, simply type the variable's name in the console and hit enter. The console will return the value of the variable in question. ",
-		"Try creating a new variable in the console with <code>var alex=\"Awesome\"</code>. Then, type <code>alex</code>, hit enter, and watch as the console returns \"Awesome\"."]
+		"Try creating a new variable in the console with <code>var alex=\"Awesome\"</code>. Then, type <code>alex</code>, hit enter, and watch as the console returns \"Awesome\". ",
+		"You can also access clas data from the console. For example, create a new class called \"Person\" with parameter \"name\" and initialize a new instance of that class. ",
+		"Give it whatever name you'd like. Then, run your program and go to the console. Type in the variable name of your instance of person, a dot, and \"name\". The console should return the string value of your person's name (whatever you passed as its name parameter). ",
+		"The console is a programmer's best friend, giving him/her access to data he might not otherwise know within the program. A form of the console exists for nearly all programming languages, so it is immensly useful for a programmer to understand how to use it."]
 	},
 	{
 		"name":"Clicking",
@@ -169,7 +172,23 @@ var lessons=[
 		"In almost all languages, addition is represented by +, subtraction by -, multiplication by *, and division by /. Here are a few examples of operations using variables in Javascript:</br>"+tab(1)+"• ",
 		"health-=damage; //the = right after - means that the variable on the left becomes itself minus the variable on the right</br>"+tab(1)+"• totalDamage=damage-armor //an example of a basic minus operation</br>"+tab(1)+"• ",
 		"force=mass*acceleration; \\the basis of a physics engine in your game</br>"+tab(1)+"• damage*=2 //perhaps you run this code when you get a 2x damage buff</br></br>",
-		"<heading><u>Methods</u></heading></br></br>Coming soon..."]
+		"<heading><u>Methods</u></heading></br></br>You know how in Algebra you're introduced to functions? Well, since many programming languages are heavily based on math concepts, they have functions as well. Some languages call them methods, behaviors, or simply just functions. ",
+		"They are all just different names used for the same thing. In essence, a function in math recieves data as an input, changes that data and then outputs the changes. Think of the simple function f(x)=2x+3. ",
+		"The function inputs x, multiplies it by 2, adds 3, and then returns that value. In mathematics functions return numbers, usually for display on a graph. ",
+		"In programming, however, that's not always the case. Sure a function can return numerical, string, boolean or other data types, but it doesn't always have to. ",
+		"Some functions are just snippets of code that do stuff but don't return any value. This means that all you have to do to run that snippet of code is to \"call\" the function. ",
+		"Without the function, you would have to copy and paste all the code somewhere else to run it in multiple places. Functions simplify that by allowing you to refer back to that snippet of code from anywhere else in your program. ",
+		"Now, I'll explain one more thing: what does it mean to \"call\" a function? Well, functions have parameters (inputs, such as x), a return value, and a name. Where as the parameters and return value are optional, all functions have at least a name. ",
+		"In all languages, you call a function by typing its name (though most languages require you to type a few other things such as parenthesis for syntax purposes). If you call a function somewhere in your code, ",
+		"the code within the function itself will be run as if you had typed it all in place of your function call. Think of a function as a macro (for those of you familiar with gaming terms) or a custom command that you specify yourself. ",
+		"Most programming languages come with built-in functions and allow you to make your own. There is a more specific guide on functions in Javascript in the Javascript lesson.</br></br><heading><u>Keywords</u></heading></br></br>",
+		"All programming languages come with built-in <i>keywords</i>. To explain what keywords are I suppose I'll have to explain how programming languages themselves work. ",
+		"Once you've written all your code, you \"run\" your program. Different languages are designed to code different things, and so are run on different platforms. Javascript is designed for web development, and so is run in a browser, while C runs from the command line to make executable .exe files. ",
+		"When a program is run, the language's compiler scans through all your code and translates it into lower and lower-level languages (the lower a language's level is, the closer it is to pure binary code). This series of translation doesn't stop until your code is pure binary (usually). ",
+		"Computers can't truly understand our programming languages, only binary code. Humans, however, find it hard to read binary so we created compilers and programming languages. ",
+		"All languages have basic, fundamental commands and phrases. These are called keywords, and they let the compiler know what exactly your code is doing so it can make an accurate translation down to binary. ",
+		"Keywords can vary drastically between languages. In Javascript, the <code>var</code> lets the compiler know you are making a variable. In Ruby, <code>puts</code> tells the compiler you want to display some text. ",
+		"In most languages, the <code>return</code> keyword tells the compiler to exit a function with a specified output. You will learn more about keywords as you learn individual languages, such as Javascript."]
 	},{
 		"name":"Languages",
 		"suggested":["Concepts"],
