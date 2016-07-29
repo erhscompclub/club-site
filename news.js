@@ -1,4 +1,5 @@
 var news=[
+	"I have an announcement: I have finally overcome my extreme laziness and am now working on new lessons for the website. Also, I added some more content to pre-existing lessons (mainly the concepts lesson). I plan to get a simple physics, command line basics, and (maybe) a java lesson out this summer. Or maybe a low-level programming language lesson? Idk, you'll have to see ;D",
 	"End of the year message:</br>Thank you all for a fun year of Computer Club. That banquet was pretty lit.</br>Sorry we never got to complete our games, we were a bit tied up in the Phil Wars. With the club website, however, Computer Club will come back better than ever next year. Here's to a new Golden Age!",
 	"The entrance fee to the end of the year banquet has been changed to $5, on account of all the food we ordered. Also, you must be a member of computer club to attend. See you all tomorrow.",
 	"Attention club members! This coming Wednesday (the 25th) is the last meeting for the 2016 school year :(</br>But then again...we do get pizza!!! Remember to being $3 for the food.",
@@ -6,7 +7,4 @@ var news=[
 	"Ha! I won the Pizza Civil War! In yo face Dagm!!! (Jk bro)",
 	"I added a new chapter to the JavaScript lesson: Classes. Classes are essential to just about every game you program, so be sure to read through it.",
 	"A new chapter in the Saga of Computer Club has been unlocked! Check out the Archives to read it.",
-	"Now that my code repository nightmare has (finally) ended, we can start working on our games. I will start my own group and work with those who come and go, or who don't already have a team. Start programming your games, and commit any changes to your GitHub repository. If you have an issue, either email me or we can address it in computer club.",
-	"Two new lessons have (finally) been added to the website: Click handling in Javascript and the Console. If you want to start working on your games, laying out the barebones HTML tags would be a good idea. Good luck with your programs!",
-	"The second (and sadly, the last) Epic Game Night of the year was also a success! (Kek, just shows you how long ago I updated this website) We are looking forward to see that amount of ticket sales again next year!"
 ]
