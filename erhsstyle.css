@@ -19,6 +19,9 @@ div{
 	font-family:"HPSimplifiedRegular",arial;
 	line-height:25px;
 }
+div.lesson{
+	text-align:left;
+}
 td{
 	color:white;
 	border-color:white;
