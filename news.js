@@ -1,4 +1,5 @@
 var news=[
+	"(9/11/2016) Let it be written in the Book of Harambe, from the Bible of the Twerk God, that on this day Dagm Sirak was dubbed the Meme King.",
 	"If there is any specific topic anyone wants to learn about, I suggest you email me (Alex Lugo) about it. You can find a link to my pgcps email at the bottom of the page.",
 	"New lessons coming soon. The delay is because I may rework the structure of my lesson query code. Simplicity is best, right? Also, sorry about cancelling last Wednesday's meeting (on 9/7/2016). Mr.Pruszko was out that day. We will have a meeting this Wednesday, however, so put it on your schedule.",
 	"There's only 6 days left until school starts (prepare yo self fools) and I've finally managed to upload my first lesson of the summer :D</br>Also since this is the last year for Dagm and I, we'll need to train the next generation of Computer Club leaders for the year after. Consider it a prophecy. Also, I'm pimping my <a href=\"http:alugocp.github.io/resume\"><u>online resume</u></a> right here.",
