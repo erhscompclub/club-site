@@ -1,4 +1,5 @@
 var news=[
+	"The lessons system on the club website is halfway done with its revamp. Once it's complete I'll post new lessons faster than ever.",
 	"<a href=\"http://w3schools.com\">w3schools</a> has good HTML reference for those of you that want to experiment with it.",
 	"(9/11/2016) Let it be written in the Book of Harambe, from the Bible of the Twerk God, that on this day Dagm Sirak was dubbed the Meme King.",
 	"If there is any specific topic anyone wants to learn about, I suggest you email me (Alex Lugo) about it. You can find a link to my pgcps email at the bottom of the page.",
