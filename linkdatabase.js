@@ -1,12 +1,5 @@
 var linkData=[
 	{
-		"name":"Lessons",
-		"links":["All Lessons"],
-		"hrefs":["lessonHub.html"]
-		/*"links":["Concepts","Javascript","HTML","Console","Clicking","Keyboard Controls","Useful Code","Physics","GitHub","Languages"],
-		"hrefs":["Concepts","Javascript","HTML","Console","Clicking","Keyboard Controls","Useful Code","Physics","GitHub","Languages"]*/
-	},
-	{
 		"name":"Sample Games",
 		"links":["Sanai the Turtwig","Genemorph"],
 		"hrefs":["http://www.gamesbyalex.com/sanai_the_turtwig.html","http://www.gamesbyalex.com/genemorph.html"]
@@ -25,5 +18,10 @@ var linkData=[
 		"name":"Computer Club",
 		"links":["Facebook Page","The Archives"],
 		"hrefs":["https://www.facebook.com/groups/398387837024141/","history.html"]
+	},
+	{
+		"name":"Cool Stuff",
+		"links":["Congressional App Challenge"],
+		"hrefs":["http://www.congressionalappchallenge.us"]
 	}
 ]

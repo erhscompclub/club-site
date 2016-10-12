@@ -7,10 +7,7 @@
 			<div id="links">
 				<u><heading id="link heading">Links</heading></u></br></br>
 				<span id="main links">
-					<!--•<a class="main">Lessons</a></br>
-					•<a class="main">Sample Games</a></br>
-					•<a class="main">Comp Sci Class Sites</a></br>
-					•<a class="main">Computer Club</a>-->
+					•<a class="main" href="lessonHub.html">Lessons</a></br>
 				</span>
 				<span id="sublinks"></span>
 			</div>
@@ -81,11 +78,7 @@
 						sublinkDiv.style.display="";
 						sublinkDiv.innerHTML="<a class='main' onclick='back()'>Back</a></br>";
 						for(var b=0;b<sublinks.length;b++){
-							/*if(linkData[a].name=="Lessons"){
-								sublinkDiv.innerHTML+="•<a href=\"lesson.html?lesson="+linkData[a].hrefs[b]+"\">"+sublinks[b]+"</a></br>";
-							}else{*/
-								sublinkDiv.innerHTML+="•<a href=\""+linkData[a].hrefs[b]+"\">"+sublinks[b]+"</a></br>";
-							//}
+							sublinkDiv.innerHTML+="•<a href=\""+linkData[a].hrefs[b]+"\">"+sublinks[b]+"</a></br>";
 						}
 					}
 				}
