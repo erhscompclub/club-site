@@ -1,0 +1,36 @@
+<title>Drawing</title>
+<div>
+	<heading>Drawing Lesson</heading>
+</div>
+<div class="lesson">
+	Suggested Lessons: <a href="lesson.html?lesson=javascript">Javascript</a></br></br>
+	<heading><u>Drawing with the HTML5 Canvas</u></heading></br></br>
+  Recently programmers have developed HTML5, an extension of the base HTML language. One new feature in this addition is the <code>canvas</code> tag. This tag (when used in tandem with Javascript) allows programmers to draw stuff on webpages, which is necessary if you want to make a game. First off, you'll need to create a canvas tag with specified width, height, and id attributes, like so:
+  <xmp>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  </xmp>
+  <heading><u>Javascript</u></heading></br></br>
+  Now that the HTML portion of our code is out of the way, we can start coding in Javascript. First, you'll need to set up the canvas and context variables, like this:</br><code>
+  var canvas=document.getElementById("canvas");
+  var context=canvas.getContext("2d");</code></br>
+  <code>document.getElementById("canvas")</code> finds the HTML element whose id attribute is "canvas" and returns it as a Javascript object. This function is one of the many ways Javascript can manipulate HTML data. Once we have our canvas object, we set up a context object for it. The context object is what we use to actually draw on the canvas. 
+  Context can draw on the canvas in one of two ways - a fill or a stroke. Fill creates a solid object and stroke creates an outline. Context gives you the option to fill or stroke any shape imaginable on the canvas. First we'll take a look at the simpler set of drawing functions. These functions can be called on their own and they'll work perfectly. Here are a few examples of these functions:</br>
+  • <code>context.fillRect(x,y,width,height)</code> fills a rectangle with the specified position/dimensions</br>
+  • <code>context.strokeRect(x,y,width,height)</code> does the same thing as fillRect, but it draws only the outline</br>
+  • <code>context.fillText(text,x,y)</code> draws the specified text at the specified position</br>
+  • <code>context.strokeText(text,x,y)</code> the same as fillText, but only draws the text's outline</br>
+  There are a few more things to note before we get on to path drawing. First, how do you draw stuff with different colors? Well, every context object has a fillStyle and strokeStyle variable. Set these variables to any of <a href="http://www.w3schools.com/colors/colors_names.asp">html's 140 supported colors</a> or any hexcode you can come up with. Setting fillStyle changes the color used by fill functions, and changing strokeStyle affects stroke functions' color. If I wanted to start filling red squares instead of black ones, for example, I would type <code>context.fillStyle="red"</code>.
+  The second thing I want to go over is this: How do you draw thinner or thicker lines? Well, the context object has a lineWidth variable. Just set that to any whole number you want to change line thickness.</br>
+  Assignment: Try using the canvas to stroke a big, thick, black...rectangle (lol)</br></br>
+  <heading><u>Path Drawing</u></heading></br></br>
+  Okay, now for the more difficult context functions: path-based drawing. Here's some example code for how to do these:<xmp>
+  context.beginPath();
+  //path draw function
+  context.closePath();
+  //either context.fill() or context.stroke()</xmp>
+  <code>context.beginPath()</code> lets the compiler know we want to start a new path drawing. Then we must use one of context's multiple path drawing functions. I have a list of them below. After that we use <code>context.closePath()</code>. It's best to use it whenever possible, but it may cause problems if you're trying to stroke an arc. If this function causes you problems, remove it. If not, just leave it where it is. The final function you need to use is either <code>context.fill()</code> or <code>context.stroke()</code>. 
+  These functions determine whether your path will be filled in or just outlined when it is drawn. Now that you know how to use path-based draw functions, here are a list of them:</br>
+  • <code>context.moveTo(x,y)</code> the first in a series of functions used for drawing multi-sided geometric shapes or lines</br>
+  • <code>context.lineTo(x,y)</code> used after moveTo. Draws a line from the point at moveTo (or at the previous lineTo) to the point specified in this function. Multiple lineTo's can be used right after each other.</br>
+  • <code>arc(x,y,radius,startAngle,endAngle,counterclockwise)</code> angles are specified in radians (degrees*pi/180). Counterclockwise is a boolean, and (x,y) defines the center of the circle. For more information, see <a href="http://www.w3schools.com/tags/canvas_arc.asp">w3schools</a>.
+</div>
