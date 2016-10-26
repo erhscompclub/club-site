@@ -1,4 +1,5 @@
 var news=[
+	"What do you guys think about doing an end-of-the-year project? The entire club would work on it. It would either be a social media website, a desktop environment, a chat app, or a programming language.",
 	"Okay, the website's lesson system is completely re-done (well, there's one little thing I may want to fix, but I can do that later). Prepare yourselves for some dank new lessons.",
 	"The lessons system on the club website is halfway done with its revamp. Once it's complete I'll post new lessons faster than ever.",
 	"<a href=\"http://w3schools.com\">w3schools</a> has good HTML reference for those of you that want to experiment with it.",
