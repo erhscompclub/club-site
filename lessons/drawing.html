@@ -33,4 +33,11 @@
   • <code>context.moveTo(x,y)</code> the first in a series of functions used for drawing multi-sided geometric shapes or lines</br>
   • <code>context.lineTo(x,y)</code> used after moveTo. Draws a line from the point at moveTo (or at the previous lineTo) to the point specified in this function. Multiple lineTo's can be used right after each other.</br>
   • <code>arc(x,y,radius,startAngle,endAngle,counterclockwise)</code> angles are specified in radians (degrees*pi/180). Counterclockwise is a boolean, and (x,y) defines the center of the circle. For more information, see <a href="http://www.w3schools.com/tags/canvas_arc.asp">w3schools</a>.
+</br></br>
+<heading><u>Drawing Images</u></heading></br></br>
+The final thing you can draw on html5 canvas is an image. You can any image on the canvas (except svg and maybe gif files). It's very simple to draw an image on the canvas, just run this code: <code>context.drawImage(image,x,y);</code>. The image parameter should refer to an Image object. Image objects are used to manipulate graphics in Javascript. Here's an easy way to create a new image file and draw it on the canvas:<xmp>
+	var image=new Image();
+	image.src="http://westwoodenabler.com/wp-content/uploads/2015/04/rick-astley-crop-2.jpg";
+	context.drawImage(image,0,0);</xmp>
+You can draw an image based on any image on the internet, you only have to add http:// or https:// before its url. To access an image file on your desktop (or wherever your html page is stored), just set <code>image.src</code> to the image's name (make sure the file's name includes its file extension).
 </div>
