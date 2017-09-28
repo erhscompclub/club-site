@@ -12,9 +12,9 @@ function get(url, ret){
 	http.open("GET", url, true); // some browsers are asynchronous 
 	http.send(null);
 }
-function addtolist(in){
+function addtolist(textin){
 	var list = document.all.list;
-	var text = in.split(/\r?\n/);
+	var text = textin.split(/\r?\n/);
 	for(var i=text.length;i--;){
 		var listitem = document.createElement("LI");
 		listitem.appendChild(document.createTextNode(text[i]));
