@@ -1,12 +1,12 @@
-body{
+body {
 	padding:5px;
-	background: linear-gradient(#25bef7,white);
+	background: linear-gradient(#25bef7,#000000);
 }
 heading{
 	font-size:30px;
 	font-weight:bold;
 }
-div{
+div {
 	background:black;
 	border-color:#0f7093;
 	border-style:solid;
@@ -19,21 +19,7 @@ div{
 	font-family:"HPSimplifiedRegular",arial;
 	line-height:25px;
 }
-div.lesson{
-	text-align:left;
-}
-td{
-	color:white;
-	border-color:white;
-	border-width:1px;
-	border-style:solid;
-}
-a{
-	text-decoration:none;
-	color:white;
-	font-family:"HPSimplifiedRegular",arial;
-	line-height:25px;
-}
-a:hover{
+a:hover {
 	text-decoration:underline;
 }
+
