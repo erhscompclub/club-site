@@ -6,8 +6,9 @@
 function get(url, ret){
 	var http = new XMLHttpRequest();
 	http.onreadystatechange = function(){
-	if(http.readyState == 4 && http.status == 200){
-		ret(http.responseText);
+		if(http.readyState == 4 && http.status == 200){
+			ret(http.responseText);
+		}
 	}
 	http.open("GET", url, true); // some browsers are asynchronous 
 	http.send(null);
