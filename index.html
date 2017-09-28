@@ -1,34 +1,20 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html><head>
-<link rel="shortcut icon" href="cc.ico">
+<!--<link rel="shortcut icon" href="cc.ico">-->
 <link type="text/css" rel="stylesheet" href="cc.css">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<script>
-function get(url, ret){
-	var http = new XMLHttpRequest();
-	http.onreadystatechange = function(){
-		if(http.readyState == 4 && http.status == 200){
-			ret(http.responseText);
-		}
-	}
-	http.open("GET", url, true); // some browsers are asynchronous 
-	http.send(null);
-}
-function addtolist(textin){
-	var list = document.all.list;
-	var text = textin.split(/\r?\n/);
-	for(var i=text.length-1;i--;){
-		var listitem = document.createElement("LI");
-		listitem.appendChild(document.createTextNode(text[i]));
-		list.appendChild(listitem);
-	}
-}
-get("list", addtolist);
-</script>
+<script type="text/javascript" src="site.js"></script>
 <title>ERHS Computer Club</title>
 </head><body>
-<h1>Computer Club</h1>
-<ul id="list">
-
-</ul>
-<a href="oldsite">Old Website</a>
-</body></html>
+<div><h1>Computer Club</h1></div>
+<div id="list_container"><ul id="list"></ul></div>
+<div id="contact_container"><h3>Contact</h3>
+<center><button id="expose" onclick="docontact()">Reveal Contact Info</button></center>
+<ul id="contact">
+<li>Sponsor: <a id="sponsora">Mrs. Johnson</a></li>
+<li>Sponsor: <a id="sponsorb">Mr. Holder</a></li>
+<li>President: <a id="president">Wilson</a></li>
+<li>Vice President: <a id="vicepresident">John</a></li>
+<li>Co-Vice President: <a id="secretary">Taj</a></li>
+</ul></div>
+<a href="oldsite">Old Website</a></body></html>
+<!-- Made by Wilson Smith, 28/09/2017 -->
