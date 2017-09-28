@@ -2,11 +2,32 @@
 <link rel="shortcut icon" href="/cc.ico">
 <link type="text/css" rel="stylesheet" href="/cc.css">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script>
+function get(url, return){
+	var http = new XMLHttpRequest();
+	http.onreadystatechange = function(){
+	if(http.readyState == 4 && http.status == 200){
+		return(http.responseText);
+	}
+	http.open("GET", url, true); // some browsers are asynchronous 
+	http.send(null);
+}
+function addtolist(input){
+	var list = document.all.list;
+	var text = input.split(/\r?\n/);
+	for(var i=text.length;i--;){
+		var listitem = document.createElement("LI");
+		listitem.appendChild(document.createTextNode(text[i]));
+		list.appendChild(listitem);
+	}
+}
+get("list", addtolist);
+</script>
 <title>ERHS Computer Club</title>
 </head><body>
 <h1>Computer Club</h1>
-<p>
+<ul id="list">
 
-</p>
+</ul>
 <a href="oldsite">Old Website</a>
 </body></html>
