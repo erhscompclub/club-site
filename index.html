@@ -3,18 +3,18 @@
 <link type="text/css" rel="stylesheet" href="cc.css">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script>
-function get(url, return){
+function get(url, ret){
 	var http = new XMLHttpRequest();
 	http.onreadystatechange = function(){
 	if(http.readyState == 4 && http.status == 200){
-		return(http.responseText);
+		ret(http.responseText);
 	}
 	http.open("GET", url, true); // some browsers are asynchronous 
 	http.send(null);
 }
-function addtolist(input){
+function addtolist(in){
 	var list = document.all.list;
-	var text = input.split(/\r?\n/);
+	var text = in.split(/\r?\n/);
 	for(var i=text.length;i--;){
 		var listitem = document.createElement("LI");
 		listitem.appendChild(document.createTextNode(text[i]));
