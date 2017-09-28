@@ -16,7 +16,7 @@ function get(url, ret){
 function addtolist(textin){
 	var list = document.all.list;
 	var text = textin.split(/\r?\n/);
-	for(var i=text.length;i>0;i--;){
+	for(var i=text.length;i>0;i--){
 		var listitem = document.createElement("LI");
 		listitem.appendChild(document.createTextNode(text[i]));
 		list.appendChild(listitem);
