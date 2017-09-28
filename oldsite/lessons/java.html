@@ -1,0 +1,55 @@
+<title>Java Fundamentals</title>
+<div>
+	<heading>The Fundamentals of Java</heading>
+</div>
+<div class="lesson">
+	Suggested Lessons: <a href="lesson.html?lesson=javascript">Javascript</a></br></br>
+	<heading><u>Object-Oriented Languages</u></heading>
+	</br></br>
+	Java is best known as one of the first popular object-oriented programming languages. This means that the entire language focuses on entities called "objects," whihc are basically collections of data associated with a single entity. Java is very structured in its object-oriented design, so it's a good language for new learners who like rules (kind of like training wheels). I'll add a detailed breakdown on Java's syntax later. For now, just refer to the code I wrote in class today.
+	</br>
+  <code><xmp>
+import java.util.Random;
+
+public class Main {
+	Random r=new Random();
+	
+	public static void main(String[] args){
+		new Main("Alex is awesome");
+		new Main("Come to computer club");
+		new Window("Hello world","Hi, I do stuff.");
+	}
+	
+	public Main(String words){
+		sayStuff(sentence());
+		arrayStuff(r.nextInt(3));
+		System.out.println(words);
+	}
+	public void sayStuff(String stuff){
+		System.out.println(stuff);
+	}
+	public String sentence(){
+		return "Hello world!";
+	}
+	public void arrayStuff(int index){
+		String[] stuff={"Hello","Bye","Cool"};
+		System.out.println(stuff[index]);
+	}
+}
+  </xmp></code>
+  <a href="files/java/intro/Main.java" download>Download this file</a></br>
+  <code><xmp>
+import javax.swing.*;
+
+public class Window extends JFrame{
+	public Window(String title,String label){
+		setVisible(true);
+		setTitle(title);
+		setSize(600,475);
+		add(new JLabel(label));
+	}
+}
+  </xmp></code>
+  <a href="files/java/intro/Window.java" download>Download this file</a></br>
+  You can download the files if need be. These two classes should have examples of just about every basic Java fundamental you'll need to start making an Android or desktop application. You can find java library reference <a href="https://docs.oracle.com/javase/7/docs/api/overview-summary.html">here</a>. If you have any questions or problems just email me (Alex Lugo).
+</div>
