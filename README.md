@@ -1,2 +1,2 @@
-# club-site
-A hub website for lessons and such, intended for the ERHS Computer Club
+# Computer Club Website
+A hub website for updates and lessons, intended for the ERHS Computer Club.
