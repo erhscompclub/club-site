@@ -19,7 +19,7 @@ function addtolist(textin){
 }
 function docontact(){
 	document.all.sponsora.href="mailto:devo__e.joh_so_=pgcps.org".replace(/_/g,'n').replace(/=/g,'@');
-	document.all.sponsorb.href="mailt_:aar_n.h_lder=pgcps.org".replace(/_/g,'o').replace(/=/g,'@');
+	document.all.sponsorb.href="mailt_:michael.h_lder=pgcps.org".replace(/_/g,'o').replace(/=/g,'@');
 	document.all.president.innerText="W_lson Sm_th".replace(/_/g,'i');
 	document.all.president.href="ma_lto:w_lson-sm_th=pgcps.org".replace(/_/g,'i').replace(/=/g,'@');
 	document.all.vicepresident.innerText="J_hn Sant_t_me".replace(/_/g,'o');
