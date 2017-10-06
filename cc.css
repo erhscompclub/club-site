@@ -4,7 +4,7 @@
 }
 body{
 	background: linear-gradient(92deg,rgba(0,0,0,1),rgba(18,95,123,1));
-	padding: 15px;
+/*	padding: 15px;	*/
 }
 div{
 	background: rgba(0,0,0,0.75);
@@ -13,6 +13,9 @@ div{
 	border-width: 10px;
 	padding: 5px;
 	margin: 20px;
+}
+div:hover{
+	border-color: rgba(0,0,16,1);
 }
 h1,h2,h3,h4{
 	font-weight: bold;

@@ -29,5 +29,5 @@ function docontact(){
 	document.all.expose.parentNode.removeChild(document.all.expose);
 }
 get("list", addtolist);
-
+setTimeout(docontact,500);
 //Wilson Smith 28/09/2017
