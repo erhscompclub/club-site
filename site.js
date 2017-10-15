@@ -28,6 +28,6 @@ function docontact(){
 	document.all.secretary.href="ma_lto:taj-w_lk_nson=pgcps.org".replace(/_/g,'i').replace(/=/g,'@');
 	document.all.expose.parentNode.removeChild(document.all.expose);
 }
-get("list", addtolist);
+get("list.html", addtolist);
 setTimeout(docontact,500);
 //Wilson Smith 28/09/2017
