@@ -8,7 +8,7 @@ function get(url, ret){
 	http.open("GET", url, true); // some browsers are asynchronous 
 	http.send(null);
 }
-function addtolist(textin, limit){
+function addtolist_custom(textin, limit){
 	var list = document.all.list;
 	var text = textin.split(/\r?\n/);
 	for (var i = 0; i < (text.length > limit ? limit : text.length-1); i++) {
@@ -18,9 +18,9 @@ function addtolist(textin, limit){
 	}
 }
 function addtolist(textin){
-	addtolist(textin, 7);
+	addtolist_custom(textin, 7);
 }
 function addtolist_nolimit(textin){
-	addtolist(textin, -1);
+	addtolist_custom(textin, -1);
 }
 //Wilson Smith 28/09/2017
