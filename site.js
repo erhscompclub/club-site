@@ -23,4 +23,3 @@ function addtolist(textin){
 function addtolist_nolimit(textin){
 	addtolist_custom(textin, -1);
 }
-//Wilson Smith 28/09/2017
