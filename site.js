@@ -8,22 +8,19 @@ function get(url, ret){
 	http.open("GET", url, true); // some browsers are asynchronous 
 	http.send(null);
 }
-function addtolist(textin){
+function addtolist(textin, limit){
 	var list = document.all.list;
 	var text = textin.split(/\r?\n/);
-	for(var i=0;i<(text.length > 7 ? 7 : text.length-1);i++){
+	for (var i = 0; i < (text.length > limit ? limit : text.length-1); i++) {
 		var listitem = document.createElement("LI");
-		listitem.innerHTML = text[i];
+		listitem.innerHTML = "<d>" + text[i].substr(0, text[i].indexOf(':')) +"</d>"+ text[i].substr(text[i].indexOf(':')+1);
 		list.appendChild(listitem);
 	}
 }
+function addtolist(textin){
+	addtolist(textin, 7);
+}
 function addtolist_nolimit(textin){
-	var list = document.all.list;
-	var text = textin.split(/\r?\n/);
-	for(var i=0;i<text.length-1;i++){
-		var listitem = document.createElement("LI");
-		listitem.innerHTML = text[i];
-		list.appendChild(listitem);
-	}
+	addtolist(textin, -1);
 }
 //Wilson Smith 28/09/2017
