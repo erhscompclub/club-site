@@ -5,6 +5,7 @@ function docontact(){
 	document.all.president.href="ma_lto:w_lson-sm_th=pgcps.org".replace(/_/g,'i').replace(/=/g,'@');
 	document.all.vicepresident.innerText="Jos_i_h Rodriguez".replace(/_/g,'a');
 	document.all.vicepresident.href="mailt_:josaiah-r_driguez@pgcps._rg".replace(/_/g,'o').replace(/=/g,'@');
+	document.all.secretary.remove();
 	document.all.expose.parentNode.removeChild(document.all.expose);
 /* 2017 - 2018
  *	document.all.sponsora.href="mailto:devo__e.joh_so_=pgcps.org".replace(/_/g,'n').replace(/=/g,'@');
