@@ -13,7 +13,7 @@ function addtolist(textin){
 	var text = textin.split(/\r?\n/);
 	for(var i=0;i<(text.length > 7 ? 7 : text.length-1);i++){
 		var listitem = document.createElement("LI");
-		listitem.appendChild(document.createTextNode(text[i]));
+		listitem.innerHTML = text[i];
 		list.appendChild(listitem);
 	}
 }
@@ -22,7 +22,7 @@ function addtolist_nolimit(textin){
 	var text = textin.split(/\r?\n/);
 	for(var i=0;i<text.length-1;i++){
 		var listitem = document.createElement("LI");
-		listitem.appendChild(document.createTextNode(text[i]));
+		listitem.innerHTML = text[i];
 		list.appendChild(listitem);
 	}
 }
