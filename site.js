@@ -12,7 +12,7 @@ function addtolist_custom(textin, limit){
 	var list = document.all.list;
 	var text = textin.split(/\r?\n/);
 	var number = text.length > limit ? limit : (text.length - 1)
-	for (var i = 0; i != number; i++) {
+	for (var i = 0; i != number-1; i++) {
 		var listitem = document.createElement("LI");
 		listitem.innerHTML = "<d>" + text[i].substr(0, text[i].indexOf(':')) +"</d>"+ text[i].substr(text[i].indexOf(':')+1);
 		list.appendChild(listitem);
