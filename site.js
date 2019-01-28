@@ -11,7 +11,8 @@ function get(url, ret){
 function addtolist_custom(textin, limit){
 	var list = document.all.list;
 	var text = textin.split(/\r?\n/);
-	for (var i = 0; i < ((text.length > limit) ? (limit) : (text.length-1)); i++) {
+	var number = text.length > limit ? limit : (text.length - 1)
+	for (var i = 0; i != number; i++) {
 		var listitem = document.createElement("LI");
 		listitem.innerHTML = "<d>" + text[i].substr(0, text[i].indexOf(':')) +"</d>"+ text[i].substr(text[i].indexOf(':')+1);
 		list.appendChild(listitem);
